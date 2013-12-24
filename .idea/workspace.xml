@@ -25,10 +25,10 @@
     <file path="/ProductDao.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387695519212" ignored="false" />
     <file path="/ProductDaoImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387696159127" ignored="false" />
     <file path="/create_product.ftl" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387713157462" ignored="false" />
-    <file path="/BranchDao.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387731655911" ignored="false" />
-    <file path="/BranchDaoImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387881745710" ignored="false" />
-    <file path="/BranchService.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387736634886" ignored="false" />
-    <file path="/BranchServiceImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387737422777" ignored="false" />
+    <file path="/BranchDao.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387886197353" ignored="false" />
+    <file path="/BranchDaoImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387886179666" ignored="false" />
+    <file path="/BranchService.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387886482605" ignored="false" />
+    <file path="/BranchServiceImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387886518843" ignored="false" />
     <file path="/fragment.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387737790711" ignored="false" />
     <file path="/BranchController.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387738098725" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,24 +89,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BranchController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/BranchController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="13" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/items/dao/ProductDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProductDaoImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/items/dao/ProductDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -152,10 +134,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BranchDao.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BranchDao.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/dao/BranchDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="3" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+            <state line="24" column="46" selection-start="548" selection-end="548" vertical-scroll-proportion="0.4749709">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,15 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BranchDaoImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/dao/BranchDaoImpl.java">
+      <file leaf-file-name="BranchService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/service/BranchService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="59" selection-start="941" selection-end="941" vertical-scroll-proportion="0.18859139">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1272#1302#0" expanded="true" />
-                <element signature="e#1390#1398#0" expanded="true" />
-              </folding>
+            <state line="22" column="60" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -179,7 +157,28 @@
       <file leaf-file-name="BranchServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/service/BranchServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.0">
+            <state line="58" column="43" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BranchDaoImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/dao/BranchDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="106" column="8" selection-start="3406" selection-end="3406" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2067#2097#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Branch.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/model/Branch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="30" selection-start="545" selection-end="555" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -202,15 +201,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/items/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/inventory/create_product.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/items/service/ItemService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/service/BranchService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/items/service/ItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/service/BranchServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/BranchController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/items/dao/ProductDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/items/ItemController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/dao/BranchDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/dao/BranchDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/service/BranchService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/service/BranchServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -1360,27 +1359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/model/Branch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="31" selection-start="578" selection-end="589" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/service/BranchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="51" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/service/BranchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/BranchController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="13" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
@@ -1435,22 +1413,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/dao/BranchDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/model/Branch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="21" column="30" selection-start="545" selection-end="555" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/dao/BranchDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="59" selection-start="941" selection-end="941" vertical-scroll-proportion="0.18859139">
+        <state line="106" column="8" selection-start="3406" selection-end="3406" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1272#1302#0" expanded="true" />
-            <element signature="e#1390#1398#0" expanded="true" />
+            <element signature="e#2067#2097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/service/BranchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="43" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/service/BranchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="60" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/branch/dao/BranchDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="46" selection-start="548" selection-end="548" vertical-scroll-proportion="0.4749709">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

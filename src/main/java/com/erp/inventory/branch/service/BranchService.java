@@ -12,26 +12,21 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public interface BranchService {
-    public  boolean save(Branch branch )  ;
+
+    public boolean save(Branch branch);
+
+    public boolean update(Branch branch);
+
     public boolean delete(Branch branch);
-    public List<Branch> findAllBranches();
 
-    public Branch get(int branchCode) ;
-    public Branch  get(String branchName);
-    //public Branch get(String contactName);
-  //  public  Branch  get(String contactName);
+    public List<Branch>findAllBranches();
 
+    public Branch get(int id);
 
+    public Branch get(Branch branch);
 
+    public Branch get(String branchName);
 
-  //  public Category get(int id);
-
-   // public Category get(Category category);
-
-    //public Category get(String categoryName);
-
-
-
-    //findAllCategories();
+    public int count();
 
 }
