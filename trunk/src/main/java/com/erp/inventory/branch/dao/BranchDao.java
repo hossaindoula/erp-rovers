@@ -13,8 +13,11 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public interface BranchDao {
+
     public boolean save(Branch branch);
+
     public boolean delete(Branch branch);
+
     public List<Branch>findAllBranch();
 
     public Branch get(int id);
