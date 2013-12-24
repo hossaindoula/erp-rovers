@@ -41,6 +41,7 @@
     <file path="/SecurityController.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387887321781" ignored="false" />
     <file path="/Token.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387887339353" ignored="false" />
     <file path="/UserDetailsService.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387887361191" ignored="false" />
+    <file path="/AuthenticationAspect.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387900042381" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_category.ftl" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="create_category.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/inventory/create_category.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1053" column="63" selection-start="58375" selection-end="58375" vertical-scroll-proportion="0.5620609">
+            <state line="1053" column="63" selection-start="58375" selection-end="58375" vertical-scroll-proportion="-18.461538">
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -127,6 +128,17 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AuthenticationAspect.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/aop/AuthenticationAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="79" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.7340909">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -137,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/security/AuthorizationFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/AuthorizationToken.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/util/TextView.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/dao/AuthenticationAndAuthorizationDao.java" />
@@ -153,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/dao/SecurityDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/inventory/create_category.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/aop/AuthenticationAspect.java" />
       </list>
     </option>
   </component>
@@ -354,6 +366,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -382,10 +424,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ERPGarment\src\main\java\com\erp" />
       <recent name="F:\ERPGarment\src\main\webapp" />
       <recent name="F:\ERPGarment\src\main\java" />
       <recent name="F:\ERPGarment\src\main\java\com\erp\util" />
-      <recent name="F:\ERPGarment\src\main\java\com\erp" />
       <recent name="C:\Users\Administrator\IdeaProjects\ERPGarment\src\main" />
     </key>
   </component>
@@ -649,7 +691,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -742,13 +784,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/GenericServiceException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/JSONView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="13" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
@@ -865,7 +900,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/inventory/create_category.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1053" column="63" selection-start="58375" selection-end="58375" vertical-scroll-proportion="0.5620609">
+        <state line="1053" column="63" selection-start="58375" selection-end="58375" vertical-scroll-proportion="-18.461538">
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -876,6 +911,15 @@
             <element signature="n#style#0;n#div#16;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#20;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#21;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/aop/AuthenticationAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="79" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.7340909">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
