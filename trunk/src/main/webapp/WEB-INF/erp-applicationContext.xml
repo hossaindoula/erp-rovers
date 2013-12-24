@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- for spring framework-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <bean id="propertyConfigurer" class ="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" p:locations="/WEB-INF/jdbc.properties" />
+
+    <bean id="itroversDataSource" class = "org.springframework.jdbc.datasource.DriverManagerDataSource" p:driverClassName = "${jdbc.driverClassName}" p:url="${jdbc.url}" p:username="${jdbc.username}" p:password="${jdbc.password}"/>
+
+    <!-- hibernatetemplate is for query for JPA specific Entities -->
+    <bean id="jpaTemplate" class="org.springframework.orm.hibernate3.HibernateTemplate">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory"/>
+        </property>
+
+    </bean>
+
+    <!-- Hibernate Transaction for JPA specific Entities -->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+        <property name="sessionFactory">
+            <ref bean="sessionFactory"/>
+        </property>
+
+    </bean>
+
+
+    <!-- Hibernate configuration for corresponding cfg.xml and JPA specific Annotation classes -->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+        <property name="dataSource" ref="itroversDataSource"/>
+
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="hibernate.generate_statistics">true</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="org.hibernate.type">true</prop>
+                <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.jdbc.batch_size">50</prop>
+                <prop key="hibernate.cache.use_second_level_cache">true</prop>
+                <prop key="hibernate.cache.use_query_cache">true</prop>
+                <prop key="hibernate.cache.provider_class">com.googlecode.hibernate.memcached.MemcachedCacheProvider</prop>
+                <prop key="hibernate.memcached.servers">127.0.0.1:11211</prop>
+            </props>
+        </property>
+        <property name="annotatedClasses">
+            <list>
+                <!--<value>com.damoments.users.domain.User</value>
+                <value>com.damoments.security.domain.Authority</value>
+                <value>com.damoments.security.domain.AuthorizedGroups</value>
+                <value>com.damoments.module.domain.Feature</value>
+                <value>com.damoments.module.domain.Component</value>
+                <value>com.damoments.security.domain.Token</value>
+                <value>com.damoments.profile.status.domain.Moment</value>-->
+                <value>com.erp.inventory.items.model.Product</value>
+                <value>com.erp.inventory.items.model.Category</value>
+            </list>
+        </property>
+
+
+    </bean>
+
+    <tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>
+
+    <context:component-scan base-package="com.erp" />
+
+    <mvc:annotation-driven />
+
+    <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter" />
+
+
+
+    <!-- Freemarker configuration -->
+    <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+        <property name="mediaTypes">
+            <map>
+                <entry key="xml" value="application/xml"/>
+                <entry key="html" value="text/html"/>
+            </map>
+        </property>
+        <property name="viewResolvers" ref="viewResolver" />
+    </bean>
+
+    <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+        <property name="templateLoaderPath">
+            <value>/</value>
+        </property>
+        <property name="freemarkerSettings">
+            <props>
+                <prop key="template_exception_handler">rethrow</prop>
+                <prop key="number_format">0.########</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+        <property name="suffix" value=".ftl" />
+        <!-- if you want to use the Spring FreeMarker macros, set this property to true -->
+        <property name="exposeSpringMacroHelpers" value="true" />
+        <property name="exposeRequestAttributes">
+            <value>true</value>
+        </property>
+        <property name="exposeSessionAttributes">
+            <value>true</value>
+        </property>
+        <property name="requestContextAttribute" value="rc"/>
+    </bean>
+
+    <!-- Freemarker configuration -->
+
+
+</beans>
