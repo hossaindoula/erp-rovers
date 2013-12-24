@@ -25,10 +25,8 @@ public class BranchDaoImpl implements BranchDao {
         try{
             hibernateTemplate.persist(branch);
             return true;
-
         }catch (Exception ex){
-
-            ex.printStackTrace();
+             ex.printStackTrace();
         }
         return false;  //To change body of implemented methods use File | Settings | File Templates.
     }
@@ -40,20 +38,19 @@ public class BranchDaoImpl implements BranchDao {
         try{
             hibernateTemplate.delete(branch);
             return  true;
-        }catch (Exception ex){
-
+        } catch (Exception ex){
             ex.printStackTrace();
         }
         return false;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
+    @SuppressWarnings("unchecked")
     public List<Branch> findAllBranch() {
+        List<Branch> branches = new ArrayList<Branch>();
+        branches = hibernateTemplate.find(" from Branch");
 
-        List<Branch>branches=new ArrayList<Branch>();
-        branches=hibernateTemplate.find(" from Branch")   ;
         return  branches;
-
     }
 
     @Override
