@@ -42,6 +42,16 @@
     <file path="/Token.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387887339353" ignored="false" />
     <file path="/UserDetailsService.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387887361191" ignored="false" />
     <file path="/AuthenticationAspect.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387900042381" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/erp/crm/CustomerController.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387901056296" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/erp/crm/CommissionController.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387901056296" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/erp/bps/BPSController.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387901056296" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/erp/crm/SalesController.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387901056296" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/erp/crm/InvoiceController.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387901056316" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/erp/cts/FileTransferController.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387901056316" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/erp/guest/service/GuestServiceImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387901056316" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/erp/dms/DocumentController.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387901056316" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/erp/guest/service/GuestService.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387901056316" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/erp/guest/AuthenticationController.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387901056316" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,13 +138,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticationAspect.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AuthenticationAspect.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/aop/AuthenticationAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="79" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.7340909">
+            <state line="38" column="79" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/home/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="163" selection-start="434" selection-end="434" vertical-scroll-proportion="0.17386363">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/security/AuthorizationToken.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/util/TextView.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/dao/AuthenticationAndAuthorizationDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/dao/AuthenticationAndAuthorizationDaoImpl.java" />
@@ -165,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/inventory/create_category.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/aop/AuthenticationAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/home/HomeController.java" />
       </list>
     </option>
   </component>
@@ -353,6 +372,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -784,15 +833,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/JSONView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="13" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
@@ -917,10 +957,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/aop/AuthenticationAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="79" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.7340909">
+        <state line="38" column="79" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/home/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="163" selection-start="434" selection-end="434" vertical-scroll-proportion="0.17386363">
+          <folding />
         </state>
       </provider>
     </entry>
