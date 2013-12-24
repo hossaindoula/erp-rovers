@@ -4,6 +4,8 @@ import com.erp.inventory.branch.dao.BranchDao;
 import com.erp.inventory.branch.model.Branch;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -15,35 +17,50 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 @Service
+@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
 public class BranchServiceImpl implements BranchService {
     @Autowired
     private BranchDao branchDao;
 
     @Override
     public boolean save(Branch branch) {
-        return branchDao.save(branch);  //To change body of implemented methods use File | Settings | File Templates.
-
+        return branchDao.save(branch);
     }
+
+    @Override
+    public boolean update(Branch branch) {
+        return branchDao.update(branch);
+    }
+
     @Override
     public boolean delete(Branch branch) {
-        return branchDao.delete(branch);  //To change body of implemented methods use File | Settings | File Templates.
+        return branchDao.delete(branch);
     }
 
     @Override
     public List<Branch> findAllBranches() {
-        return branchDao.findAllBranch();  //To change body of implemented methods use File | Settings | File Templates.
+        return branchDao.findAllBranch();
 
     }
 
     @Override
     public Branch get(int branchCode) {
-        return branchDao.get(branchCode);  //To change body of implemented methods use File | Settings | File Templates.
-   //categoryDao.get(id);
+        return branchDao.get(branchCode);
 
     }
 
     @Override
+    public Branch get(Branch branch) {
+        return branchDao.get(branch);
+    }
+
+    @Override
     public Branch get(String branchName) {
-        return branchDao.get(branchName);  //To change body of implemented methods use File | Settings | File Templates.
+        return branchDao.get(branchName);
+    }
+
+    @Override
+    public int count() {
+        return branchDao.count();
     }
 }

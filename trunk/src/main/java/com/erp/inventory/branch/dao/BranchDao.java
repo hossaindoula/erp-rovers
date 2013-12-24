@@ -16,6 +16,8 @@ public interface BranchDao {
 
     public boolean save(Branch branch);
 
+    public boolean update(Branch branch);
+
     public boolean delete(Branch branch);
 
     public List<Branch>findAllBranch();
@@ -25,5 +27,7 @@ public interface BranchDao {
     public Branch get(Branch branch);
 
     public Branch get(String branchName);
+
+    public int count();
 
 }
