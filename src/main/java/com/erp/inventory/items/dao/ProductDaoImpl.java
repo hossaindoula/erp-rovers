@@ -51,7 +51,7 @@ public class ProductDaoImpl implements ProductDao {
 
     @Override
     public List<Product> findAllProducts() {
-        List<Product> products=new ArrayList<Product>();
+        List<Product> products= new ArrayList<Product>();
         products=hibernateTemplate.find(" from Product");
         return products;  //To change body of implemented methods use File | Settings | File Templates.
     }

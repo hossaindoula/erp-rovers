@@ -22,7 +22,6 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/item/")
 public class ItemController {
 
-    //f
     @Autowired
     private ItemService itemService;
 
