@@ -22,6 +22,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/item/")
 public class ItemController {
 
+    //f
     @Autowired
     private ItemService itemService;
 
@@ -36,6 +37,10 @@ public class ItemController {
         Category category = new Category();
         category.setCategoryName(categoryName);
         itemService.save(category);
+
+
+
+
 
         return new ModelAndView("redirect:/createCategory");
     }
