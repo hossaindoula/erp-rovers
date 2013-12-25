@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/")
 public class HomeController {
 	
-	@RequestMapping(method=RequestMethod.GET, value="/home.erp")
+	@RequestMapping(method=RequestMethod.GET, value="/home")
 	public ModelAndView home(){
 		HashMap<String, Object> homeModel = new HashMap<String, Object>();
 		homeModel.put("PageTitle", "ERP - Home");
