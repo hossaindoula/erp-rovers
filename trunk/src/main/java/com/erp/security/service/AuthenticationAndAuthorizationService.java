@@ -4,12 +4,12 @@ import java.util.List;
 
 import javax.servlet.http.HttpSession;
 
-import com.wings4.security.AuthorizationToken;
-import com.wings4.security.model.Feature;
-import com.wings4.security.model.Authority;
-import com.wings4.security.model.AuthorizedGroups;
-import com.wings4.security.model.User;
-import com.wings4.security.model.Component;
+import com.erp.security.AuthorizationToken;
+import com.erp.security.model.Feature;
+import com.erp.security.model.Authority;
+import com.erp.security.model.AuthorizedGroups;
+import com.erp.security.model.User;
+import com.erp.security.model.Component;
 
 public interface AuthenticationAndAuthorizationService {
 	
