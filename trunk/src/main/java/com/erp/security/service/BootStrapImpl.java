@@ -1,6 +1,6 @@
 package com.erp.security.service;
 
-import com.wings4.security.model.*;
+import com.erp.security.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
