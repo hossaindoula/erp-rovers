@@ -126,7 +126,7 @@
       <file leaf-file-name="AuthenticationTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/erp/security/AuthenticationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="7" selection-start="276" selection-end="408" vertical-scroll-proportion="0.0">
+            <state line="25" column="5" selection-start="276" selection-end="552" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,7 +135,7 @@
       <file leaf-file-name="InventoryTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/erp/inventory/InventoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="30" selection-start="218" selection-end="218" vertical-scroll-proportion="0.4220963">
+            <state line="14" column="29" selection-start="298" selection-end="298" vertical-scroll-proportion="0.390681">
               <folding />
             </state>
           </provider>
@@ -173,7 +173,7 @@
       <file leaf-file-name="ERPBaseTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/erp/util/ERPBaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="43" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+            <state line="24" column="5" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -208,7 +208,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/erp/guest/AuthenticationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/aop/AuthorizationAspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/service/AuthenticationAndAuthorizationService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/erp/util/ERPBaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/erp/security/AuthenticationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/service/BootStrapImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/service/SecurityServiceImpl.java" />
@@ -216,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/service/AuthenticationAndAuthorizationServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/service/BootStrap.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/erp/inventory/InventoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/erp/util/ERPBaseTest.java" />
       </list>
     </option>
   </component>
@@ -459,7 +459,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,7 +506,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\ERPGarment\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AuthenticationTest">
+  <component name="RunManager" selected="Glassfish Server.Glassfish 3.1">
     <configuration default="false" name="AuthenticationTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -650,7 +662,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Glassfish 3.1" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Glassfish 3.1.2.2">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ERPGarment" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8181/ERPGarment" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ERPGarment:war exploded">
@@ -662,7 +674,7 @@
         <option name="PRESERVE" value="false" />
         <option name="VIRTUAL_SERVER" />
         <option name="USERNAME" value="admin" />
-        <option name="PASSWORD" value="" />
+        <option name="PASSWORD" value="asadmin" />
       </server-settings>
       <predefined_log_file id="GlassFish" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -788,7 +800,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="786" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="786" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -809,10 +821,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15559158" sideWeight="0.672524" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15559158" sideWeight="0.6741214" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32688928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23176661" sideWeight="0.672524" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32747602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23176661" sideWeight="0.6741214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -934,13 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/erp/util/ERPBaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="43" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/junit/framework/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="23" selection-start="342" selection-end="342" vertical-scroll-proportion="0.3256705">
@@ -994,16 +999,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/erp/util/ERPBaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="5" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/erp/security/AuthenticationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="7" selection-start="276" selection-end="408" vertical-scroll-proportion="0.0">
+        <state line="25" column="5" selection-start="276" selection-end="552" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/erp/inventory/InventoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="218" selection-end="218" vertical-scroll-proportion="0.4220963">
+        <state line="14" column="29" selection-start="298" selection-end="298" vertical-scroll-proportion="0.390681">
           <folding />
         </state>
       </provider>
