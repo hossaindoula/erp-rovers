@@ -1,9 +1,9 @@
 package com.erp.aop;
 
-import com.wings4.security.SessionUtil;
-import com.wings4.security.model.Feature;
-import com.wings4.security.service.AuthenticationAndAuthorizationService;
-import com.wings4.util.ERPConstants;
+import com.erp.security.SessionUtil;
+import com.erp.security.model.Feature;
+import com.erp.security.service.AuthenticationAndAuthorizationService;
+import com.erp.util.ERPConstants;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -11,7 +11,7 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.wings4.security.service.SecurityService;
+import com.erp.security.service.SecurityService;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.lang.annotation.Annotation;
@@ -33,7 +33,7 @@ public class AuthorizationAspect {
 
 
     @Pointcut("within(@org.springframework.stereotype.Controller *) " +
-			"&& !within(@org.springframework.stereotype.Controller com.wings4.guest.AuthenticationController)")
+			"&& !within(@org.springframework.stereotype.Controller com.erp.guest.AuthenticationController)")
 	public void allControllers(){}
 	
 	@Pointcut("execution(* save*(..))")

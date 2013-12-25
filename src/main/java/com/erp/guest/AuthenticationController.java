@@ -2,8 +2,8 @@ package com.erp.guest;
 
 import javax.servlet.http.HttpSession;
 
-import com.wings4.security.service.BootStrap;
-import com.wings4.security.service.UserDetailsService;
+import com.erp.security.service.BootStrap;
+import com.erp.security.service.UserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.wings4.security.service.AuthenticationAndAuthorizationService;
+import com.erp.security.service.AuthenticationAndAuthorizationService;
 
 
 @Controller
