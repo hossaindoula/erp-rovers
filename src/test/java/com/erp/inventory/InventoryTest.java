@@ -20,4 +20,9 @@ public class InventoryTest extends ERPBaseTest {
         value2 = 3;
     }
 
+    // test method to add two values
+    public void testAdd(){
+        double result= value1 + value2;
+        assertTrue(result == 6);
+    }
 }
