@@ -4,20 +4,18 @@
  */
 package com.erp.security.service;
 
-import com.wings4.security.dao.UserDao;
+import com.erp.security.dao.UserDao;
 
 
-import com.wings4.security.model.AuthorizedGroups;
-import com.wings4.security.model.Token;
-import com.wings4.security.model.User;
+import com.erp.security.model.AuthorizedGroups;
+import com.erp.security.model.Token;
+import com.erp.security.model.User;
 
 import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -77,11 +75,6 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     @Override
     public List<User> getAllUsers() {
     	return userDao.getAllUsers();
-    }
-
-
-    public UserDetails loadUserByUsername(String string) throws UsernameNotFoundException, DataAccessException {
-    	return null;
     }
 
 	@Override
