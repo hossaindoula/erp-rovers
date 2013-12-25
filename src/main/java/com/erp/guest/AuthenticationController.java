@@ -29,13 +29,13 @@ public class AuthenticationController{
     @Autowired
 	private BootStrap bootStrap;
 	
-	@RequestMapping(method=RequestMethod.GET, value="/login.erp")
+	@RequestMapping(method=RequestMethod.GET, value="/login")
 	public ModelAndView login() throws Exception {
         bootStrap.createDefaultAdmin();
 		return new ModelAndView("authentication/login");
     }
 	
-	@RequestMapping(method=RequestMethod.POST, value="/authenticateUser.erp")
+	@RequestMapping(method=RequestMethod.POST, value="/authenticateUser")
 	public ModelAndView authenticateUser(@RequestParam("username") String username,
 			@RequestParam("password") String password) throws Exception {
 		

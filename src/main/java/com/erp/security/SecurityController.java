@@ -43,13 +43,13 @@ public class SecurityController {
 	private AuthenticationAndAuthorizationService authorizationService;
 	private HttpSession userSession;
     
-	@RequestMapping(method=RequestMethod.GET, value="/home.erp")
+	@RequestMapping(method=RequestMethod.GET, value="/home")
     public ModelAndView index() throws Exception {
         Map<String,String> indexMap = new HashMap<String,String>();
         return new ModelAndView("/security/index", indexMap);
     }
     
-	@RequestMapping(method=RequestMethod.GET, value="/passwordRequest.erp")
+	@RequestMapping(method=RequestMethod.GET, value="/passwordRequest")
     public ModelAndView passwordRequest(){
     	Map<String,String> passwordRequesMap = new HashMap<String,String>();
 		passwordRequesMap.put("success", "");
@@ -57,12 +57,12 @@ public class SecurityController {
     	return new ModelAndView("/security/password_request", passwordRequesMap);
     }
 	
-	@RequestMapping(method=RequestMethod.GET, value="/userSummary.erp")
+	@RequestMapping(method=RequestMethod.GET, value="/userSummary")
 	public ModelAndView userSummary(){
 		return new ModelAndView("/security/user_list");
     }
 	
-	@RequestMapping(method=RequestMethod.GET, value="/logout.erp")
+	@RequestMapping(method=RequestMethod.GET, value="/logout")
 	public ModelAndView logout(){
 		userSession = SessionUtil.getSession();
 		userSession.removeAttribute(ERPConstants.SESSION_USER);
@@ -73,13 +73,13 @@ public class SecurityController {
 	}
 	
 	
-	@RequestMapping(method=RequestMethod.GET, value="/userAuthorizedGroupAssignment.erp")
+	@RequestMapping(method=RequestMethod.GET, value="/userAuthorizedGroupAssignment")
 	public ModelAndView userAuthorizedGroupAssignment(){
 		System.out.println("assignment !!! ");
 		return new ModelAndView("/security/user_list");
 	}
 	
-	@RequestMapping(method=RequestMethod.GET, value="/userList.erp")
+	@RequestMapping(method=RequestMethod.GET, value="/userList")
 	public ModelAndView userList(){
 		System.out.println("userList");
         Map<String,String> userListMap = new HashMap<String, String>();
@@ -87,7 +87,7 @@ public class SecurityController {
 		return new ModelAndView("/security/user_list",userListMap);
 	}
 
-    @RequestMapping(method=RequestMethod.GET, value="/userJsonData.erp")
+    @RequestMapping(method=RequestMethod.GET, value="/userJsonData")
     public ModelAndView userJsonData(){
         int start =  0;
         int limit = 15;
@@ -112,7 +112,7 @@ public class SecurityController {
         return new ModelAndView(new JSONView(), userMap);
     }
 
-    @RequestMapping(method=RequestMethod.GET, value="/featureList.erp")
+    @RequestMapping(method=RequestMethod.GET, value="/featureList")
     public ModelAndView featureList(){
         System.out.println("userList");
         Map<String,String> featureListMap = new HashMap<String, String>();
@@ -120,7 +120,7 @@ public class SecurityController {
         return new ModelAndView("/security/feature_list",featureListMap);
     }
 
-    @RequestMapping(method=RequestMethod.GET, value="/featureJsonData.erp")
+    @RequestMapping(method=RequestMethod.GET, value="/featureJsonData")
     public ModelAndView featureJsonData(){
         int start = 0;
         int limit = 15;
@@ -150,7 +150,7 @@ public class SecurityController {
 
 
 
-    @RequestMapping(method=RequestMethod.GET, value="/componentList.erp")
+    @RequestMapping(method=RequestMethod.GET, value="/componentList")
     public  ModelAndView componentList(){
 
         Map<String,String> componentListMap=new HashMap<String, String>();
@@ -158,7 +158,7 @@ public class SecurityController {
         return  new ModelAndView("/security/component_list",componentListMap);
 
     }
-    @RequestMapping(method=RequestMethod.GET, value="/componentJsonData.erp")
+    @RequestMapping(method=RequestMethod.GET, value="/componentJsonData")
     public ModelAndView componentJsonData(){
         int start =  0;
         int limit = 15;
@@ -186,7 +186,7 @@ public class SecurityController {
 
 
 
-    @RequestMapping(method=RequestMethod.GET, value="/createUser.erp")
+    @RequestMapping(method=RequestMethod.GET, value="/createUser")
     public ModelAndView createUser(){
         Map<String,String> saveUserMap = new HashMap<String,String>();
         saveUserMap.put("PageTitle", "Create User");
@@ -196,7 +196,7 @@ public class SecurityController {
 
     }
 
-	@RequestMapping(method=RequestMethod.POST, value="/saveUser.erp")
+	@RequestMapping(method=RequestMethod.POST, value="/saveUser")
 	public ModelAndView saveUser(@RequestParam("username") String username,
 			@RequestParam("password") String password,
 			@RequestParam("confirmPassword") String confirmPassword){
@@ -206,7 +206,7 @@ public class SecurityController {
         	saveUserMap.put("result", "User already exists");
             System.out.println("userDuplicate.getToken() = " + userDuplicate.getToken().getUsername());
             saveUserMap.put("PageTitle", "User Create");
-            return new ModelAndView("redirect:/security/createUser.erp", saveUserMap);
+            return new ModelAndView("redirect:/security/createUser", saveUserMap);
         } else{
             if ( password.equals(confirmPassword) ){
             	Token userToken = new Token();
@@ -217,14 +217,14 @@ public class SecurityController {
                 System.out.println("userDuplicate.getToken() second case = " + userToken.getUsername());
                 saveUserMap.put("PageTitle", "User Create");
 
-                return new ModelAndView("redirect:/security/createUser.erp", saveUserMap);
+                return new ModelAndView("redirect:/security/createUser", saveUserMap);
             }
             else {
             	saveUserMap.put("result", "Password doesn't match");
                 saveUserMap.put("PageTitle", "User Create");
                 System.out.println("last  case = " );
 
-                return new ModelAndView("redirect:/security/createUser.erp", saveUserMap);
+                return new ModelAndView("redirect:/security/createUser", saveUserMap);
             }
 
         }
@@ -232,7 +232,7 @@ public class SecurityController {
 	}
 
 
-    @RequestMapping(method=RequestMethod.GET, value="/createFeature.erp")
+    @RequestMapping(method=RequestMethod.GET, value="/createFeature")
     public ModelAndView createFeature(){
         Map<String,String> saveFeatureMap = new HashMap<String,String>();
         saveFeatureMap.put("PageTitle", "Create Feature");
@@ -242,7 +242,7 @@ public class SecurityController {
 
     }
 
-    @RequestMapping(method=RequestMethod.POST, value="/saveFeature.erp")
+    @RequestMapping(method=RequestMethod.POST, value="/saveFeature")
     public ModelAndView saveFeature(@RequestParam("description") String description,
                                     @RequestParam("operation") String operation,
                                     @RequestParam("componentId") String componentId){
@@ -252,7 +252,7 @@ public class SecurityController {
 
             saveFeatureMap.put("result","User already exists");
             saveFeatureMap.put("PageTitle","Feature Create");
-            return  new ModelAndView("redirect:/security/createFeature.erp", saveFeatureMap);
+            return  new ModelAndView("redirect:/security/createFeature", saveFeatureMap);
 
         }
         else {
@@ -266,11 +266,11 @@ public class SecurityController {
             securityService.save(feature);
             saveFeatureMap.put("PageTitle", "Feature Create");
 
-            return new ModelAndView("redirect:/security/createFeature.erp", saveFeatureMap);
+            return new ModelAndView("redirect:/security/createFeature", saveFeatureMap);
 
         }
     }
-    @RequestMapping(method = RequestMethod.GET,value = "/createComponent.erp")
+    @RequestMapping(method = RequestMethod.GET,value = "/createComponent")
     public ModelAndView createComponent(){
         Map<String,String> createComponentMap = new HashMap<String,String>();
         createComponentMap.put("PageTitle", "Create Component");
@@ -278,14 +278,14 @@ public class SecurityController {
 
         return new ModelAndView("/security/create_component", createComponentMap);
     }
-    @RequestMapping(method = RequestMethod.POST,value = "/saveComponent.erp")
+    @RequestMapping(method = RequestMethod.POST,value = "/saveComponent")
     public ModelAndView saveComponent(@RequestParam("componentName") String componentName,@RequestParam("description") String description){
         Map<String,String> saveComponentMap = new HashMap<String, String>();
         Component componentDuplicate = securityService.getComponentByName(componentName);
         if(componentDuplicate != null){
             saveComponentMap.put("result","Component already exists");
             saveComponentMap.put("PageTitle","Component Create");
-            return  new ModelAndView("redirect:/security/createComponent.erp", saveComponentMap);
+            return  new ModelAndView("redirect:/security/createComponent", saveComponentMap);
         }
         else {
             Component component =new Component();
@@ -294,7 +294,7 @@ public class SecurityController {
             securityService.save(component);
             saveComponentMap.put("PageTitle", "Create Component");
 
-            return new ModelAndView("redirect:/security/createComponent.erp", saveComponentMap);
+            return new ModelAndView("redirect:/security/createComponent", saveComponentMap);
 
         }
 
@@ -324,15 +324,15 @@ public class SecurityController {
 		}
 	}
 
-    @RequestMapping(method = RequestMethod.GET,value = "/createAuthority.erp")
+    @RequestMapping(method = RequestMethod.GET,value = "/createAuthority")
     public ModelAndView createAuthority(){
         Map<String,String> createAuthorityMap=new HashMap<String, String>();
         createAuthorityMap.put("PageTitle", "Create Authority");
-        createAuthorityMap.put("DashboardLink", "../home.erp");
+        createAuthorityMap.put("DashboardLink", "../home");
         return new ModelAndView("/security/create_authority",createAuthorityMap);
     }
     
-	@RequestMapping(method=RequestMethod.POST,value = "/saveAuthority.erp")
+	@RequestMapping(method=RequestMethod.POST,value = "/saveAuthority")
 	public ModelAndView saveAuthority(@RequestParam("authorityName") String authorityName,
 			@RequestParam("authorityDescription") String authorityDescription){
 		Map<String,String> saveAuthorityMap = new HashMap<String,String>();
@@ -341,7 +341,7 @@ public class SecurityController {
 		if(authorityDuplicate != null){
 			saveAuthorityMap.put("result", "Authority already exists!!!");
             saveAuthorityMap.put("PageTitle","Create Authority");
-			return new ModelAndView("redirect:/security/createAuthority.erp", saveAuthorityMap);
+			return new ModelAndView("redirect:/security/createAuthority", saveAuthorityMap);
 		} else {
 			Authority authority = new Authority();
 			authority.setAuthorityName(authorityName);
@@ -349,11 +349,11 @@ public class SecurityController {
 			
 			securityService.save(authority);
 			saveAuthorityMap.put("PageTitle","Create Authority");
-			return new ModelAndView("redirect:/security/createAuthority.erp", saveAuthorityMap);
+			return new ModelAndView("redirect:/security/createAuthority", saveAuthorityMap);
 		}
 	}
 
-    @RequestMapping(method=RequestMethod.GET, value="/authorityList.erp")
+    @RequestMapping(method=RequestMethod.GET, value="/authorityList")
     public ModelAndView authorityList(){
         Map<String,String> authorityListMap = new HashMap<String, String>();
         authorityListMap.put("PageTitle","Authority List");
@@ -361,7 +361,7 @@ public class SecurityController {
         return new ModelAndView("/security/authority_list",authorityListMap);
     }
 
-    @RequestMapping(method=RequestMethod.GET, value="/authorityJsonData.erp")
+    @RequestMapping(method=RequestMethod.GET, value="/authorityJsonData")
     public ModelAndView authorityJsonData(){
         int start =  0;
         int limit = 15;
@@ -386,14 +386,14 @@ public class SecurityController {
         return new ModelAndView(new JSONView(), authorityMap);
     }
 
-    @RequestMapping(method = RequestMethod.GET,value = "/userGroupList.erp")
+    @RequestMapping(method = RequestMethod.GET,value = "/userGroupList")
     public ModelAndView userGroupList(){
         Map<String,String> userGroupListMap=new HashMap<String, String>();
         userGroupListMap.put("PageTitle","User Group List");
 
         return new ModelAndView("/security/user_group_list",userGroupListMap);
     }
-    @RequestMapping(method = RequestMethod.GET,value = "userGroupJsonData.erp")
+    @RequestMapping(method = RequestMethod.GET,value = "userGroupJsonData")
     public ModelAndView userGroupJsonData(){
         int start=0;
         int limit=15;
