@@ -5,6 +5,8 @@ import com.erp.inventory.items.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate3.HibernateTemplate;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,12 +19,14 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 @Repository
+@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
 public class ProductDaoImpl implements ProductDao {
 
     @Autowired
     private HibernateTemplate hibernateTemplate;
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
     public boolean save(Product product) {
         try {
             hibernateTemplate.persist(product);
@@ -36,6 +40,7 @@ public class ProductDaoImpl implements ProductDao {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
     public boolean delete(Product product) {
         try {
             hibernateTemplate.delete(product);

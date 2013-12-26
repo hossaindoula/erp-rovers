@@ -4,6 +4,8 @@ import com.erp.inventory.items.model.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate3.HibernateTemplate;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,12 +19,14 @@ import java.util.List;
  */
 
 @Repository
+@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
 public class CategoryDaoImpl implements CategoryDao {
 
     @Autowired
     private HibernateTemplate hibernateTemplate;
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
     public boolean save(Category category) {
         try{
             hibernateTemplate.persist(category);
@@ -34,6 +38,7 @@ public class CategoryDaoImpl implements CategoryDao {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
     public boolean delete(Category category) {
         try{
             hibernateTemplate.delete(category);

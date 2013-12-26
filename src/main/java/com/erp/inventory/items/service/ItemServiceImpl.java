@@ -6,6 +6,8 @@ import com.erp.inventory.items.model.Category;
 import com.erp.inventory.items.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -18,6 +20,7 @@ import java.util.List;
  */
 
 @Service
+@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
 public class ItemServiceImpl implements ItemService {
 
     @Autowired
@@ -26,21 +29,25 @@ public class ItemServiceImpl implements ItemService {
     private ProductDao productDao;
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
     public boolean save(Category category) {
         return categoryDao.save(category);
 }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
     public boolean save(Product product) {
         return productDao.save(product);  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
     public boolean delete(Category category) {
         return categoryDao.delete(category);
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
     public boolean delete(Product product) {
         return false;  //To change body of implemented methods use File | Settings | File Templates.
     }
