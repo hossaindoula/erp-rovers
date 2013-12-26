@@ -24,8 +24,9 @@ import org.springframework.transaction.annotation.Transactional;
  *
  * @author ronnie
  */
-@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
+
 @Service
+@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
 public class UserDetailsServiceImpl implements UserDetailsService {
 	
 	@Autowired
@@ -42,6 +43,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
     public boolean saveUser(Token token) {
         userDao.save(token);
         User user = new User();
@@ -53,16 +55,19 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
     public boolean saveUser(User user) {
         return userDao.save(user);
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
     public boolean updateToken(Token token) {
         return false;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
     public boolean updateToken(User user) {
         return false;  //To change body of implemented methods use File | Settings | File Templates.
     }

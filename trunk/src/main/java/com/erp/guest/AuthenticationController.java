@@ -43,7 +43,7 @@ public class AuthenticationController{
 		boolean isAuthenticated = authService.authenticate(username, password);
 		
 		if(isAuthenticated){
-			return new ModelAndView("redirect:/home.erp");
+			return new ModelAndView("redirect:/home");
 		} else {
 			return new ModelAndView("redirect:/");
 		}

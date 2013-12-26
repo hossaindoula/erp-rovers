@@ -3,6 +3,8 @@ package com.erp.security.service;
 import com.erp.security.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,13 +26,12 @@ public class BootStrapImpl implements BootStrap {
     @Autowired
     private UserDetailsService userDetailsService;
 
-    private List<Feature> features;
+    private static List<Feature> features;
     private List<Authority> authorities;
     private List<AuthorizedGroups> authorizedCumulativeGroups;
 
 
     public void createDefaultAdmin(){
-        System.out.println("userDetailsService.count() = " + userDetailsService.count());
         if(userDetailsService.count() == 0){
 
             Token token = new Token();
@@ -46,7 +47,6 @@ public class BootStrapImpl implements BootStrap {
             userDetailsService.saveUser(user);
         }
     }
-
 
     public List<AuthorizedGroups> initializeDefaultSecurityData(){
 

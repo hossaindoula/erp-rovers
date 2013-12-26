@@ -16,8 +16,9 @@ import com.erp.security.DESEDE;
 import com.erp.security.model.User;
 
 
-@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
+
 @Repository
+@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
 public class UserDaoImpl implements UserDao {
 
 	@Autowired
@@ -136,8 +137,14 @@ public class UserDaoImpl implements UserDao {
 	}
 
     @Override
+    @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
     public int count(){
-        Session hibernateSession = hibernateTemplate.getSessionFactory().getCurrentSession();
+        List<User> users = hibernateTemplate.find(" from User");
+        int count = 0;
+        if(users != null){
+            count = users.size();
+        }
+        /*Session hibernateSession = hibernateTemplate.getSessionFactory().getCurrentSession();
         int count;
         try{
             count = Integer.parseInt(hibernateSession.
@@ -146,7 +153,7 @@ public class UserDaoImpl implements UserDao {
                     uniqueResult().toString());
         }   catch (Exception ex){
             count = 0;
-        }
+        } */
 
         //return hibernateTemplate.find("from User").size();
         return count;

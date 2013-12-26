@@ -10,8 +10,11 @@ import com.erp.security.model.Feature;
 import com.erp.security.model.Authority;
 import com.erp.security.model.AuthorizedGroups;
 import com.erp.security.model.Component;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
+@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
 public class SecurityServiceImpl implements SecurityService {
 
 	@Autowired
@@ -38,15 +41,18 @@ public class SecurityServiceImpl implements SecurityService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
     public boolean save(AuthorizedGroups authorizedGroups) {
         return securityDao.save(authorizedGroups);
     }
 
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
 	public boolean save(Feature feature) {
 		return securityDao.save(feature);
 	}
     @Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
     public Feature findFeatureByOperation(String operation){
       return securityDao.findFeatureByOperation(operation);
     }
@@ -57,11 +63,13 @@ public class SecurityServiceImpl implements SecurityService {
 	}
 
 	@Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
 	public boolean delete(Feature feature) {
 		return securityDao.delete(feature);
 	}
 
 	@Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
 	public boolean save(Authority authority) {
 		return securityDao.save(authority);
 	}
@@ -77,11 +85,13 @@ public class SecurityServiceImpl implements SecurityService {
 	}
 
 	@Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
 	public boolean delete(Authority authority) {
 		return securityDao.delete(authority);
 	}
 
 	@Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
 	public boolean save(Component component) {
 		return securityDao.save(component);
 	}
@@ -92,6 +102,7 @@ public class SecurityServiceImpl implements SecurityService {
 	}
 
 	@Override
+    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
 	public boolean delete(Component component) {
 		return securityDao.delete(component);
 	}
