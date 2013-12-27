@@ -137,7 +137,6 @@ public class UserDaoImpl implements UserDao {
 	}
 
     @Override
-    @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
     public int count(){
         List<User> users = hibernateTemplate.find(" from User");
         int count = 0;

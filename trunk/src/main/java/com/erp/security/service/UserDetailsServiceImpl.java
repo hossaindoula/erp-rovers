@@ -62,14 +62,14 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Override
     @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
-    public boolean updateToken(Token token) {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+    public boolean update(Token token) {
+        return userDao.update(token);  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
     @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
-    public boolean updateToken(User user) {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+    public boolean update(User user) {
+        return userDao.update(user);  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
