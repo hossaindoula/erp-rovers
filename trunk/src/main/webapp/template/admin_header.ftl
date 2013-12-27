@@ -35,7 +35,7 @@
 
     <div class="header">
         <div class="logo">
-            <a href="/"><h5 style="color:#ffffff;">Rovers</h5></a>
+            <a href="${rc.getContextPath()}/Dashboard/"><h5 style="color:#ffffff;">Rovers</h5></a>
         </div>
         <div class="headerinner">
             <ul class="headmenu">

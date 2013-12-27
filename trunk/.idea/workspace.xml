@@ -42,7 +42,7 @@
     <file path="/AuthenticationTest.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388074662492" ignored="false" />
     <file path="/InventoryTest.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388075496833" ignored="false" />
     <file path="/login.ftl" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388139040463" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388143250427" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388158450299" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/ant.xml" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388057022172" ignored="false" />
     <file path="/BootStrapImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388209538883" ignored="false" />
     <file path="/dwr-context.xml" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388068648676" ignored="false" />
@@ -52,7 +52,11 @@
     <file path="/index.ftl" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388142130294" ignored="false" />
     <file path="/ERPConstants.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388141332637" ignored="false" />
     <file path="/HomeController.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388142118088" ignored="false" />
-    <file path="/admin_header.ftl" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388143224940" ignored="false" />
+    <file path="/admin_header.ftl" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388144250589" ignored="false" />
+    <file path="/WriteToFile.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388154056714" ignored="false" />
+    <file path="/ReadCompressedSerializedObject.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388155595808" ignored="false" />
+    <file path="/nav_panel.ftl" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388157554871" ignored="false" />
+    <file path="/ProfileService.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388158393066" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,64 +115,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AuthenticationController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/guest/AuthenticationController.java">
+      <file leaf-file-name="nav_panel.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/template/nav_panel.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="63" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0">
+            <state line="9" column="68" selection-start="515" selection-end="515" vertical-scroll-proportion="-5.8846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingsController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/cp/SettingsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="43" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfileService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/home/service/ProfileService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="56" selection-start="685" selection-end="685" vertical-scroll-proportion="0.80541456">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1094#1109#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_header.ftl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/template/admin_header.ftl">
+      <file leaf-file-name="ProfileServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/home/service/ProfileServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="75" selection-start="3795" selection-end="3795" vertical-scroll-proportion="0.80037665">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/security/SecurityController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="13" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/home/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="18" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+            <state line="180" column="1" selection-start="7176" selection-end="7176" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#519#535#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ERPConstants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/ERPConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="57" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/home/index.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="343" column="39" selection-start="19958" selection-end="19958" vertical-scroll-proportion="-10.615385">
-              <folding>
-                <element signature="e#2565#2630#0" expanded="true" />
-                <element signature="e#2679#2723#0" expanded="true" />
-                <element signature="e#6770#6791#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,34 +167,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="60" selection-start="1445" selection-end="1445" vertical-scroll-proportion="-10.24">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/authentication/login.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="0" selection-start="6436" selection-end="6436" vertical-scroll-proportion="-18.961538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDaoImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/security/dao/UserDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="45" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BootStrapImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/security/service/BootStrapImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="9" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
+            <state line="46" column="40" selection-start="1647" selection-end="1647" vertical-scroll-proportion="-17.2">
               <folding />
             </state>
           </provider>
@@ -229,22 +183,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dwr-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/items/dao/CategoryDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/items/dao/ProductDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/items/service/ItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/erp-applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/dao/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/service/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/service/UserDetailsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/security/service/BootStrapImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/authentication/login.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/util/ERPConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/home/index.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/home/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/guest/AuthenticationController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/template/admin_header.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/home/index.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/accounting/service/WriteToFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/accounting/ReadCompressedSerializedObject.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/template/nav_panel.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/home/service/ProfileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/home/service/ProfileService.java" />
       </list>
     </option>
   </component>
@@ -378,6 +332,10 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -402,6 +360,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,6 +474,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -916,41 +960,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/security/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="21" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/security/model/AuthorizedGroups.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="51" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/security/service/UserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="25" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/security/service/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="26" selection-start="1693" selection-end="1693" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/security/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/security/dao/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="45" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0">
@@ -963,29 +972,6 @@
         <state line="30" column="9" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/security/SecurityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="60" selection-start="1445" selection-end="1445" vertical-scroll-proportion="-10.24">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/GeneralException.java">
@@ -1005,33 +991,37 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/authentication/login.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="136" column="0" selection-start="6436" selection-end="6436" vertical-scroll-proportion="-18.961538">
+          <folding>
+            <marker date="1388139043846" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1388139043846" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1388139043846" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1388139043846" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1388139043846" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1388139043846" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;registrationUser&quot;...}" />
+            <marker date="1388139043846" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1388139043846" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1388139043846" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/security/SecurityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="85" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/home/index.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/admin_header.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="343" column="39" selection-start="19958" selection-end="19958" vertical-scroll-proportion="-10.615385">
-          <folding>
-            <element signature="e#2565#2630#0" expanded="true" />
-            <element signature="e#2679#2723#0" expanded="true" />
-            <element signature="e#6770#6791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/home/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#519#535#0" expanded="true" />
-          </folding>
+        <state line="37" column="54" selection-start="2306" selection-end="2306" vertical-scroll-proportion="-4.576923">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/guest/AuthenticationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="63" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0">
+        <state line="40" column="41" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1094#1109#0" expanded="true" />
@@ -1039,10 +1029,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/admin_header.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/home/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="75" selection-start="3795" selection-end="3795" vertical-scroll-proportion="0.80037665">
+        <state line="21" column="116" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#519#535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/home/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="59" selection-start="4424" selection-end="4424" vertical-scroll-proportion="-11.769231">
+          <folding>
+            <element signature="e#2557#2622#0" expanded="true" />
+            <element signature="e#2671#2715#0" expanded="true" />
+            <element signature="e#6762#6783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/pm/ProductionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="64" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/nav_panel.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="68" selection-start="515" selection-end="515" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="40" selection-start="1647" selection-end="1647" vertical-scroll-proportion="-17.2">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/cp/SettingsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="43" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/home/service/ProfileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="1" selection-start="7176" selection-end="7176" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/home/service/ProfileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="56" selection-start="685" selection-end="685" vertical-scroll-proportion="0.80541456">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
