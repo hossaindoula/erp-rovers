@@ -15,7 +15,7 @@ import com.erp.security.service.AuthenticationAndAuthorizationService;
 
 
 @Controller
-@RequestMapping("/auth")
+@RequestMapping("/")
 public class AuthenticationController{
 	
 	HttpSession userSession;
