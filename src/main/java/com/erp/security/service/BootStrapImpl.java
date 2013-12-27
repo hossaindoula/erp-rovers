@@ -44,7 +44,7 @@ public class BootStrapImpl implements BootStrap {
             List<AuthorizedGroups> groups = initializeDefaultSecurityData();
             user.setAuthorizedGroups(groups);
 
-            userDetailsService.saveUser(user);
+            userDetailsService.update(user);
         }
     }
 

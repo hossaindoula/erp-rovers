@@ -23,9 +23,9 @@ public interface UserDetailsService{
     
     public boolean saveUser(User user);
     
-    public boolean updateToken(Token token);
+    public boolean update(Token token);
     
-    public boolean updateToken(User user);
+    public boolean update(User user);
 
     public User findByUserCodeAndPassword(String username, String password);       
     
