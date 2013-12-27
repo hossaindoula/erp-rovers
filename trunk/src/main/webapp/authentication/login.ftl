@@ -82,7 +82,7 @@
 <div class="loginpanel">
     <div class="loginpanelinner">
         <div class="logo animate0 bounceIn">damoments - login</div>
-        <form id="login" action="auth/control" method="post">
+        <form id="login" action="${rc.getContextPath()}/authenticateUser" method="post">
             <div class="inputwrapper login-alert">
                 <div class="alert alert-error">Invalid username or password</div>
             </div>

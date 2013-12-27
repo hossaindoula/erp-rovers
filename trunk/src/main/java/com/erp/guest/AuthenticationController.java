@@ -13,6 +13,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.erp.security.service.AuthenticationAndAuthorizationService;
 
+import java.util.HashMap;
+import java.util.Map;
+
 
 @Controller
 @RequestMapping("/")
@@ -28,22 +31,26 @@ public class AuthenticationController{
 
     @Autowired
 	private BootStrap bootStrap;
-	
-	@RequestMapping(method=RequestMethod.GET, value="/login")
-	public ModelAndView login() throws Exception {
+
+    @RequestMapping(method = RequestMethod.GET)
+	public ModelAndView login() {
         bootStrap.createDefaultAdmin();
-		return new ModelAndView("authentication/login");
+        Map<String,String> loginPageMap = new HashMap<String,String>();
+        loginPageMap.put("PageTitle", "login");
+        loginPageMap.put("Tile", "login");
+
+		return new ModelAndView("authentication/login", loginPageMap);
     }
 	
 	@RequestMapping(method=RequestMethod.POST, value="/authenticateUser")
 	public ModelAndView authenticateUser(@RequestParam("username") String username,
-			@RequestParam("password") String password) throws Exception {
+			@RequestParam("password") String password) {
 		
 		// Call the service method to retrieve the user object by username and password.
 		boolean isAuthenticated = authService.authenticate(username, password);
 		
 		if(isAuthenticated){
-			return new ModelAndView("redirect:/home");
+			return new ModelAndView("redirect:/Dashboard");
 		} else {
 			return new ModelAndView("redirect:/");
 		}

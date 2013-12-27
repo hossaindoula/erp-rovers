@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping("/home")
+@RequestMapping("/Dashboard")
 public class HomeController {
 	
-	@RequestMapping(method=RequestMethod.GET, value="/home")
+	@RequestMapping(method=RequestMethod.GET, value="/")
 	public ModelAndView home(){
 		HashMap<String, Object> homeModel = new HashMap<String, Object>();
 		homeModel.put("PageTitle", "ERP - Home");
