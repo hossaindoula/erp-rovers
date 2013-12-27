@@ -35,7 +35,7 @@
 
     <div class="header">
         <div class="logo">
-            <a href="dashboard"><h5 style="color:#ffffff;">daMoments</h5></a>
+            <a href="/"><h5 style="color:#ffffff;">Rovers</h5></a>
         </div>
         <div class="headerinner">
             <ul class="headmenu">

@@ -50,7 +50,7 @@ public class AuthenticationController{
 		boolean isAuthenticated = authService.authenticate(username, password);
 		
 		if(isAuthenticated){
-			return new ModelAndView("redirect:/Dashboard");
+			return new ModelAndView("redirect:/Dashboard/");
 		} else {
 			return new ModelAndView("redirect:/");
 		}
