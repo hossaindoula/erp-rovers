@@ -18,11 +18,11 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 @Service("springService")
-@RemoteProxy(name="profileService")
+//@RemoteProxy(name="profileService")
 @Transactional
 public class ProfileServiceImpl implements ProfileService {
 
-    @Autowired
+    /*@Autowired
     private MomentDao momentsDao;
 
     private HttpSession userSession;
@@ -177,5 +177,5 @@ public class ProfileServiceImpl implements ProfileService {
     @Override
     public List<Moment> findAllMomentsByUser(User user) {
         return momentsDao.findAllMomentsByUser(user);
-    }
+    }*/
 }
