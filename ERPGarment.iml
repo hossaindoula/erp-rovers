@@ -21,6 +21,7 @@
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/erp-applicationContext.xml</file>
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/erp-dispatcher-servlet.xml</file>
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/erp-dispatcher-servlet.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/dwr-context.xml</file>
         </fileset>
         <fileset id="fileset1" name="Annotation Config Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/erp-applicationContext.xml</file>
@@ -99,6 +100,7 @@
     <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.14" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.extras:glassfish-embedded-all:3.1.1" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.jatl:jatl:0.2.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Glassfish 3.1" level="application_server_libraries" />
   </component>
 </module>
 
