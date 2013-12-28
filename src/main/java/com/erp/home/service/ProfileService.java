@@ -14,7 +14,7 @@ import java.util.List;
 
 public interface ProfileService {
 
-    public String save(Moment moment);
+    /*public String save(Moment moment);
 
     public String save(String momentText);
 
@@ -30,5 +30,5 @@ public interface ProfileService {
 
     public String findAllMomentsBySessionUser();
 
-    public List<Moment> findAllMomentsByUser(User user);
+    public List<Moment> findAllMomentsByUser(User user);*/
 }

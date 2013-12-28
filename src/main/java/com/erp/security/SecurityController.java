@@ -51,10 +51,10 @@ public class SecurityController {
     
 	@RequestMapping(method=RequestMethod.GET, value="/passwordRequest")
     public ModelAndView passwordRequest(){
-    	Map<String,String> passwordRequesMap = new HashMap<String,String>();
-		passwordRequesMap.put("success", "");
+    	Map<String,String> passwordRequestMap = new HashMap<String,String>();
+		passwordRequestMap.put("success", "");
 
-    	return new ModelAndView("/security/password_request", passwordRequesMap);
+    	return new ModelAndView("/security/password_request", passwordRequestMap);
     }
 	
 	@RequestMapping(method=RequestMethod.GET, value="/userSummary")
