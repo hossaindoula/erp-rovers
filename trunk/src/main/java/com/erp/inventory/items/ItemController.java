@@ -3,12 +3,15 @@ package com.erp.inventory.items;
 import com.erp.inventory.items.model.Category;
 import com.erp.inventory.items.model.Product;
 import com.erp.inventory.items.service.ItemService;
+import com.erp.util.ERPConstants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+
+import java.util.HashMap;
 
 /**
  * Created with IntelliJ IDEA.
@@ -27,7 +30,15 @@ public class ItemController {
 
     @RequestMapping(method= RequestMethod.GET, value="createCategory")
     public ModelAndView createCategory(){
-        return new ModelAndView("inventory/create_category");
+        HashMap<String, Object> categoryModel = new HashMap<String, Object>();
+        categoryModel.put("PageTitle", "Category");
+        categoryModel.put("PageLink", "Category");
+        categoryModel.put("Title", "Category");
+        categoryModel.put("templateType", "Category");
+        categoryModel.put("companyCopyRightText", ERPConstants.COMPANY_COPYRIGHT_TEXT);
+        categoryModel.put("company", ERPConstants.COMPANY);
+
+        return new ModelAndView("inventory/create_category", categoryModel);
     }
 
     @RequestMapping(method= RequestMethod.POST, value="saveCategory")
@@ -37,11 +48,7 @@ public class ItemController {
         category.setCategoryName(categoryName);
         itemService.save(category);
 
-
-
-
-
-        return new ModelAndView("redirect:/createCategory");
+        return new ModelAndView("redirect:createCategory");
     }
 
 
@@ -51,7 +58,14 @@ public class ItemController {
 
     @RequestMapping(method= RequestMethod.GET, value="createProduct")
     public ModelAndView createProduct(){
-        return new ModelAndView("inventory/create_product");
+        HashMap<String, Object> homeModel = new HashMap<String, Object>();
+        homeModel.put("PageTitle", "ERP - Item - Category");
+        homeModel.put("PageLink", "Category");
+        homeModel.put("Title", "Category");
+        homeModel.put("templateType", "Category");
+        homeModel.put("companyCopyRightText", ERPConstants.COMPANY_COPYRIGHT_TEXT);
+        homeModel.put("company", ERPConstants.COMPANY);
+        return new ModelAndView("inventory/create_product", homeModel);
     }
 
     @RequestMapping(method= RequestMethod.POST, value="saveProduct")
