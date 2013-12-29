@@ -24,7 +24,7 @@ public interface CountryDao {
 
     public Country get(int id);
 
-    public List<Country> findAddressByRegion(Region region);
+    public List<Country> findCountriesByRegion(Region region);
 
     public int count();
 }
