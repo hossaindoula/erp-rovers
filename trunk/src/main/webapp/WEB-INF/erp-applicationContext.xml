@@ -71,6 +71,10 @@
                 <value>com.erp.security.model.Feature</value>
                 <value>com.erp.security.model.Component</value>
                 <value>com.erp.security.model.Token</value>
+                <value>com.erp.util.model.Region</value>
+                <value>com.erp.util.model.Country</value>
+                <value>com.erp.util.model.City</value>
+                <value>com.erp.util.model.Address</value>
                 <value>com.erp.inventory.items.model.Product</value>
                 <value>com.erp.inventory.items.model.Category</value>
                 <value>com.erp.inventory.branch.model.Branch</value>
