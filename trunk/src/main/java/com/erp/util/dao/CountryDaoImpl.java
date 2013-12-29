@@ -68,7 +68,7 @@ public class CountryDaoImpl implements CountryDao {
     }
 
     @Override
-    public List<Country> findAddressByRegion(Region region) {
+    public List<Country> findCountriesByRegion(Region region) {
         Object[] paramArr = new Object[2];
         paramArr[0] = region;
         List<Country> countries = hibernateTemplate.find(" from Region where region.id =? ", paramArr);
