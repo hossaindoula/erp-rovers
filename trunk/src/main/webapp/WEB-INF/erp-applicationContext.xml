@@ -113,6 +113,7 @@
                 <value>com.erp.inventory.items.model.Category</value>
                 <value>com.erp.inventory.branch.model.Branch</value>
                 <value>com.erp.inventory.pricing.purchases.model.Prices</value>
+                <value>com.erp.inventory.purchases.model.PurchasesData</value>
             </list>
         </property>
 
