@@ -13,7 +13,7 @@
     <file path="/Product.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387637267040" ignored="false" />
     <file path="/category.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387637200829" ignored="false" />
     <file path="/jdbc.properties" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387637424764" ignored="false" />
-    <file path="/erp-applicationContext.xml" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388399765229" ignored="false" />
+    <file path="/erp-applicationContext.xml" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388479223775" ignored="false" />
     <file path="/Branch.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387691035034" ignored="false" />
     <file path="/CategoryDao.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387691320149" ignored="false" />
     <file path="/CategoryDaoImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387691730425" ignored="false" />
@@ -85,7 +85,7 @@
     <file path="/AllowanceType.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388410263464" ignored="false" />
     <file path="/DeductType.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388410828063" ignored="false" />
     <file path="/Incentive.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388410888782" ignored="false" />
-    <file path="/EmployeeProfile.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388414165446" ignored="false" />
+    <file path="/EmployeeProfile.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388481403751" ignored="false" />
     <file path="/EmploymentStatus.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388418064756" ignored="false" />
     <file path="/JobTitle.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388418267610" ignored="false" />
     <file path="/JobSpec.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388418333941" ignored="false" />
@@ -103,6 +103,15 @@
     <file path="/AttendanceRegister.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388424462849" ignored="false" />
     <file path="/LateThreshold.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388424523728" ignored="false" />
     <file path="/Leave.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388424612443" ignored="false" />
+    <file path="/HRMService.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388477362527" ignored="false" />
+    <file path="/EmployeeDao.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388480560530" ignored="false" />
+    <file path="/EmployeeDaoImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388483073463" ignored="false" />
+    <file path="/Name.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388478448751" ignored="false" />
+    <file path="/Organization.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388479933815" ignored="false" />
+    <file path="/EmployeeProfileDao.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388481049383" ignored="false" />
+    <file path="/EmployeeProfileDaoImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388483153474" ignored="false" />
+    <file path="/DegreeDao.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388481905358" ignored="false" />
+    <file path="/DegreeDaoImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388482160135" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,102 +171,7 @@
     <favorites_list name="ERPGarment" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="EmployeeDaoImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AttendanceController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/AttendanceController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="33" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeaveController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/LeaveController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AttendanceAdjustment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/AttendanceAdjustment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AttendanceRegister.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/AttendanceRegister.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="34" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LateThreshold.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LateThreshold.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Leave.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/Leave.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeaveEntitlement.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LeaveEntitlement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeaveRegister.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LeaveRegister.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="22" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeaveWaiver.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LeaveWaiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -267,22 +181,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/model/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/performance/model/ReviewRegister.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/model/Department.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/recruitment/RecruitmentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/recruitment/model/JobPosting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/recruitment/model/RecruitmentAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/recruitment/model/Applicant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/recruitment/model/Recruitment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/recruitment/model/Responsibility.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/AttendanceAdjustment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/AttendanceRegister.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LateThreshold.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/Leave.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LeaveEntitlement.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LeaveRegister.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LeaveWaiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/service/HRMService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/util/model/Name.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/erp-applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/model/Department.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/model/Organization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/model/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeProfileDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/model/EmployeeProfile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/DegreeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/DegreeDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeProfileDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -415,6 +329,32 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -479,115 +419,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ERPGarment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ERPGarment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hrm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="time" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ERPGarment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ERPGarment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hrm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="time" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ERPGarment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ERPGarment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hrm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -604,8 +442,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
@@ -696,6 +534,19 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -722,19 +573,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -913,7 +751,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -934,7 +772,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14343598" sideWeight="0.6837607" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32649574" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21393842" sideWeight="0.6837607" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21393842" sideWeight="0.6837607" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31490016" sideWeight="0.49786553" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1010,7 +848,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/recruitment/model/JobPosting.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/model/Organization.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
@@ -1019,36 +857,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/recruitment/model/RecruitmentAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/dao/RegionDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="5" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
+        <state line="67" column="8" selection-start="1587" selection-end="2040" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="38" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/recruitment/model/Applicant.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/model/UserProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="55" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
+        <state line="21" column="27" selection-start="438" selection-end="445" vertical-scroll-proportion="0.435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeProfileDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="62" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/recruitment/model/Recruitment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/model/EmployeeProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="16" column="35" selection-start="350" selection-end="350" vertical-scroll-proportion="0.32166666">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/recruitment/model/Responsibility.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/DegreeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="48" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+        <state line="14" column="28" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1057,79 +907,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/AttendanceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/LeaveController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/AttendanceAdjustment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/AttendanceRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="34" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LateThreshold.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/Leave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LeaveEntitlement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LeaveRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="22" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+        <state line="28" column="26" selection-start="310" selection-end="594" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LeaveWaiver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/model/JobAppreciation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="22" column="23" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/GeneralException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="30" selection-start="503" selection-end="503" vertical-scroll-proportion="0.43441227">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/ERPConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="73" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/erp-applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="45" selection-start="4579" selection-end="4579" vertical-scroll-proportion="-3.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/security/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="72" selection-start="782" selection-end="850" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/DegreeDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="72" selection-start="838" selection-end="906" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="670" selection-end="737" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeProfileDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="34" selection-start="597" selection-end="597" vertical-scroll-proportion="0.51">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
