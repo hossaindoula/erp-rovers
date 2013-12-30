@@ -21,9 +21,6 @@ public class Employee extends User {
 
     private static final long serialVersionUID = 1L;
 
-    @OneToOne(mappedBy = "owner")
-    private EmployeeProfile employeeProfile;
-
     @ManyToMany(mappedBy = "employees")
     private List<RegularIncentive> regularIncentives;
 
@@ -56,13 +53,5 @@ public class Employee extends User {
 
     public void setDepartment(List<Department> department) {
         this.department = department;
-    }
-
-    public EmployeeProfile getEmployeeProfile() {
-        return employeeProfile;
-    }
-
-    public void setEmployeeProfile(EmployeeProfile employeeProfile) {
-        this.employeeProfile = employeeProfile;
     }
 }

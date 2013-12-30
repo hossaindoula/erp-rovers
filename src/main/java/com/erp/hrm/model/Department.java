@@ -1,7 +1,6 @@
 package com.erp.hrm.model;
 
 import javax.persistence.*;
-import javax.xml.registry.infomodel.Organization;
 import java.io.Serializable;
 import java.util.List;
 
