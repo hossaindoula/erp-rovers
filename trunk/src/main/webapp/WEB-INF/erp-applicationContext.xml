@@ -66,11 +66,45 @@
         <property name="annotatedClasses">
             <list>
                 <value>com.erp.security.model.User</value>
+                <value>com.erp.util.model.UserProfile</value>
                 <value>com.erp.security.model.Authority</value>
                 <value>com.erp.security.model.AuthorizedGroups</value>
                 <value>com.erp.security.model.Feature</value>
                 <value>com.erp.security.model.Component</value>
                 <value>com.erp.security.model.Token</value>
+                <value>com.erp.hrm.model.Employee</value>
+                <value>com.erp.hrm.model.EmployeeProfile</value>
+                <value>com.erp.hrm.model.Degree</value>
+                <value>com.erp.hrm.model.Department</value>
+                <value>com.erp.hrm.model.Employer</value>
+                <value>com.erp.hrm.model.EmploymentStatus</value>
+                <value>com.erp.hrm.model.JobRole</value>
+                <value>com.erp.hrm.model.JobSpec</value>
+                <value>com.erp.hrm.model.JobTitle</value>
+                <value>com.erp.hrm.payroll.model.AllowanceType</value>
+                <value>com.erp.hrm.payroll.model.DeductType</value>
+                <value>com.erp.hrm.payroll.model.Incentive</value>
+                <value>com.erp.hrm.payroll.model.OccasionalIncentive</value>
+                <value>com.erp.hrm.payroll.model.RegularIncentive</value>
+                <value>com.erp.hrm.payroll.model.OvertimeRate</value>
+                <value>com.erp.hrm.payroll.model.PaymentMethod</value>
+                <value>com.erp.hrm.payroll.model.PaymentRequisition</value>
+                <value>com.erp.hrm.payroll.model.PayRegister</value>
+                <value>com.erp.hrm.payroll.model.ProvidentFund</value>
+                <value>com.erp.hrm.performance.model.KPI</value>
+                <value>com.erp.hrm.performance.model.ReviewRegister</value>
+                <value>com.erp.hrm.recruitment.model.Applicant</value>
+                <value>com.erp.hrm.recruitment.model.JobPosting</value>
+                <value>com.erp.hrm.recruitment.model.Recruitment</value>
+                <value>com.erp.hrm.recruitment.model.RecruitmentAction</value>
+                <value>com.erp.hrm.recruitment.model.Responsibility</value>
+                <value>com.erp.hrm.time.model.AttendanceAdjustment</value>
+                <value>com.erp.hrm.time.model.AttendanceRegister</value>
+                <value>com.erp.hrm.time.model.LateThreshold</value>
+                <value>com.erp.hrm.time.model.Leave</value>
+                <value>com.erp.hrm.time.model.LeaveEntitlement</value>
+                <value>com.erp.hrm.time.model.LeaveRegister</value>
+                <value>com.erp.hrm.time.model.LeaveWaiver</value>
                 <value>com.erp.util.model.Region</value>
                 <value>com.erp.util.model.Country</value>
                 <value>com.erp.util.model.City</value>
