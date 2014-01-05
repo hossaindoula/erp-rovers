@@ -14,20 +14,24 @@ import java.io.Serializable;
 public class PurchasesData implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int supplierId;
+    private int id;
     private int stockId ;
     private  double price;
     private String suppliersUom;
     private  double conversionFactor;
+
+    @ManyToOne
+    private Supplier supplier;
+
     @Lob
     private String supplierDescription;
 
-    public int getSupplierId() {
-        return supplierId;
+    public int getId() {
+        return id;
     }
 
-    public void setSupplierId(int supplierId) {
-        this.supplierId = supplierId;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getStockId() {
@@ -70,5 +74,11 @@ public class PurchasesData implements Serializable {
         this.supplierDescription = supplierDescription;
     }
 
+    public Supplier getSupplier() {
+        return supplier;
+    }
 
+    public void setSupplier(Supplier supplier) {
+        this.supplier = supplier;
+    }
 }

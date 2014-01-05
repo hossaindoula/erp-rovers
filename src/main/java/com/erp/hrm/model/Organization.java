@@ -21,11 +21,7 @@ public class Organization implements Serializable {
 
     @Column(name = "organization_name")
     private String organizationName;
-
-    @ManyToOne
     private String email;
-
-    @ManyToOne
     private String phone;
 
     @ManyToOne

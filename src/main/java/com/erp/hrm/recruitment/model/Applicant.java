@@ -28,17 +28,9 @@ public class Applicant implements Serializable {
     private String maritalStatus;
     private String nationality;
     private String religion;
-
-    @ManyToOne
     private String personalPhone;
-
-    @ManyToOne
     private String officePhone;
-
-    @ManyToOne
     private String email;
-
-    @ManyToOne
     private String alternateEmail;
 
     @Temporal(TemporalType.DATE)
@@ -47,7 +39,6 @@ public class Applicant implements Serializable {
 
     @ManyToOne
     private JobTitle appliedJob;
-
     private String subject;
 
     @ManyToOne
@@ -63,19 +54,16 @@ public class Applicant implements Serializable {
     private Department department;
 
     @Column(name = "expected_salary")
-    private Double expectedSalary;
+    private double expectedSalary;
 
     @Column(name = "proposed_salary")
-    private Double proposedSalary;
+    private double proposedSalary;
 
     @Lob
     private String notes;
 
     @ManyToOne
     private Degree degree;
-
-    @ManyToOne
-    private JobAppreciation appreciation;
 
     @OneToOne
     private Address address;
@@ -174,14 +162,6 @@ public class Applicant implements Serializable {
 
     public void setDegree(Degree degree) {
         this.degree = degree;
-    }
-
-    public JobAppreciation getAppreciation() {
-        return appreciation;
-    }
-
-    public void setAppreciation(JobAppreciation appreciation) {
-        this.appreciation = appreciation;
     }
 
     public String getPersonalPhone() {

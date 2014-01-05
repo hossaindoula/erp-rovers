@@ -5,6 +5,7 @@ import org.hibernate.classic.Session;
 import org.hibernate.criterion.Projections;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate3.HibernateTemplate;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -15,6 +16,8 @@ import java.util.List;
  * Time: 2:54 PM
  * To change this template use File | Settings | File Templates.
  */
+
+@Repository
 public class RegionDaoImpl implements RegionDao {
 
     @Autowired
