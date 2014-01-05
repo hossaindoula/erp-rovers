@@ -12,7 +12,7 @@ import java.io.Serializable;
  * To change this template use File | Settings | File Templates.
  */
 
-  @Entity
+@Entity
 public class ChartClass implements Serializable {
     @Id
     private  int cId;
