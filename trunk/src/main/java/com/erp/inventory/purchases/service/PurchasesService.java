@@ -1,6 +1,8 @@
 package com.erp.inventory.purchases.service;
 
 import com.erp.inventory.purchases.model.PurchasesData;
+import com.erp.inventory.purchases.model.PurchasesOrderDetails;
+import com.erp.inventory.purchases.model.Supplier;
 
 import java.util.List;
 
@@ -13,18 +15,38 @@ import java.util.List;
  */
 public interface PurchasesService {
 
-    boolean save(PurchasesData price);
+    public boolean save(PurchasesData price);
+
+    public  boolean save(PurchasesOrderDetails orderNo);
+
+    public boolean save(Supplier supplier);
+
+    public boolean delete(Supplier supplier);
+
+    public List<Supplier> findAllSuppliers();
+
+    public Supplier  getSupplier(int id);
+
+    public Supplier getSupplier(Supplier supplier);
+
+    public  Supplier getSupplier(String firstName);
+
+    public boolean delete(PurchasesData price);
+
+    public  boolean delete(PurchasesOrderDetails description);
+
+    public List<PurchasesData> findAllPurchasesData();
 
     List<PurchasesData> findAllPurchasesDataList();
 
-    //List<PurchasesData> findAllProducts();
+    public List<PurchasesOrderDetails> findAllPurchasesOrderDetails();
 
-    PurchasesData get(int id);
+    public PurchasesData getPurchase(double price);
 
-    boolean delete(PurchasesData price);
+    public PurchasesData getPurchase(int id);
 
-    //List<PurchasesData> findAllPurchasesDataList();
+    public  PurchasesOrderDetails getPurchaseOrderDetails(String description);
 
-    PurchasesData get(double price);
+    public PurchasesOrderDetails getPurchaseOrderDetails(int orderNo);
 
 }

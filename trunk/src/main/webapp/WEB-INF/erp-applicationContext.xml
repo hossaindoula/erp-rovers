@@ -74,6 +74,7 @@
                 <value>com.erp.security.model.Token</value>
                 <value>com.erp.hrm.model.Employee</value>
                 <value>com.erp.hrm.model.EmployeeProfile</value>
+                <value>com.erp.hrm.model.Organization</value>
                 <value>com.erp.hrm.model.Degree</value>
                 <value>com.erp.hrm.model.Department</value>
                 <value>com.erp.hrm.model.Employer</value>
@@ -109,11 +110,16 @@
                 <value>com.erp.util.model.Country</value>
                 <value>com.erp.util.model.City</value>
                 <value>com.erp.util.model.Address</value>
+                <value>com.erp.util.model.Race</value>
                 <value>com.erp.inventory.items.model.Product</value>
                 <value>com.erp.inventory.items.model.Category</value>
                 <value>com.erp.inventory.branch.model.Branch</value>
                 <value>com.erp.inventory.pricing.purchases.model.Prices</value>
                 <value>com.erp.inventory.purchases.model.PurchasesData</value>
+                <value>com.erp.inventory.purchases.model.Supplier</value>
+                <value>com.erp.inventory.purchases.model.ExternalSupplier</value>
+                <value>com.erp.inventory.purchases.model.LocalSupplier</value>
+                <value>com.erp.inventory.purchases.model.PurchasesOrderDetails</value>
             </list>
         </property>
 

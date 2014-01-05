@@ -1,6 +1,6 @@
 package com.erp.inventory.purchases.dao;
 
-import com.erp.inventory.purchases.model.PurchasesData;
+import com.erp.inventory.purchases.model.PurchasesOrderDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate3.HibernateTemplate;
 import org.springframework.stereotype.Repository;
@@ -12,60 +12,60 @@ import java.util.List;
 /**
  * Created with IntelliJ IDEA.
  * User: Administrator
- * Date: 12/29/13
- * Time: 12:39 AM
+ * Date: 1/4/14
+ * Time: 8:24 PM
  * To change this template use File | Settings | File Templates.
  */
 @Repository
 @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
-public class PurchasesDataDaoImpl implements PurchasesDataDao {
+public class PurchasesOrderDetailsDaoImpl implements PurchasesOrderDetailsDao {
 
     @Autowired
-    private HibernateTemplate  hibernateTemplate;
+    public HibernateTemplate hibernateTemplate;
 
     @Override
     @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
-    public boolean save(PurchasesData purchasesData) {
+    public boolean save(PurchasesOrderDetails purchasesOrderDetails) {
         try {
-            hibernateTemplate.persist(purchasesData);
+        hibernateTemplate.persist(purchasesOrderDetails);
+          return true;
+        } catch (Exception Ex){
+            Ex.printStackTrace();
+        }
+
+        return false;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public boolean delete(PurchasesOrderDetails purchasesOrderDetails) {
+        try {
+            hibernateTemplate.delete(purchasesOrderDetails);
             return true;
-        }  catch (Exception ex){
-            ex.printStackTrace();
+           }catch (Exception Ex){
+            Ex.printStackTrace();
+
         }
         return false;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
-    @Transactional(propagation = Propagation.REQUIRED, readOnly = false)
-    public boolean delete(PurchasesData purchasesData) {
-        try {
-            hibernateTemplate.delete(purchasesData);
-            return true;
-
-        }catch (Exception ex){
-            ex.printStackTrace();
-
-        }
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
-    }
-
-    @Override
-    public List<PurchasesData> findAllPurchasesData() {
+    public List<PurchasesOrderDetails> findAllPurchasesOrderDetails() {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
-    public PurchasesData get(int id) {
-        return hibernateTemplate.get(PurchasesData.class,id);  //To change body of implemented methods use File | Settings | File Templates.
+    public PurchasesOrderDetails get(int orderNo) {
+        return hibernateTemplate.get(PurchasesOrderDetails.class,orderNo);  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
-    public PurchasesData get(PurchasesData purchasesData) {
+    public PurchasesOrderDetails get(PurchasesOrderDetails purchasesOrderDetails) {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
-    public PurchasesData get(double price) {
-        return hibernateTemplate.get(PurchasesData.class,price);  //To change body of implemented methods use File | Settings | File Templates.
+    public PurchasesOrderDetails get(String description) {
+        return hibernateTemplate.get(PurchasesOrderDetails.class,description);  //To change body of implemented methods use File | Settings | File Templates.
     }
 }
+
