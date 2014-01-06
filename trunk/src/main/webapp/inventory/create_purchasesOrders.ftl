@@ -38,22 +38,18 @@
 
 
             <div class="widgetbox box-inverse">
-                <h4 class="widgettitle">New Category Entry</h4>
+                <h4 class="widgettitle">New Branch Entry</h4>
                 <div class="widgetcontent wc1">
-                    <form id="form1" class="stdform" method="POST" action="savePurchasesData">
+                    <form id="form1" class="stdform" method="POST" action="savePurchasesOrders">
                         <div class="par control-group">
-                            <label class="control-label" for="firstname">price</label>
-                            <div class="controls"><input type="text" name="price" id="price" class="input-large" /></div>
+                            <label class="control-label" for="Comments">Comments</label>
+                            <div class="controls"><input type="text" name="comments" id="comments" class="input-large" /></div>
                         </div>
-                        <label class="control-label" for="Supplier Description">Supplier Description</label>
-                        <div class="controls"><input type="text" name="supplierDescription" id="supplierDescription" class="input-large" /></div>
-                </div>
 
-
-                <!-- <div class="control-group">
-                    <label class="control-label" for="lastname">Last Name</label>
-                    <div class="controls"><input type="text" name="lastname" id="lastname" class="input-large" /></div>
-                </div> -->
+                        <!-- <div class="control-group">
+                            <label class="control-label" for="lastname">Last Name</label>
+                            <div class="controls"><input type="text" name="lastname" id="lastname" class="input-large" /></div>
+                        </div> -->
 
                         <p class="stdformbutton">
                             <button class="btn btn-primary">Submit Button</button>

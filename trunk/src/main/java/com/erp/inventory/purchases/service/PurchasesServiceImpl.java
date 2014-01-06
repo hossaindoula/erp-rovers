@@ -1,11 +1,7 @@
 package com.erp.inventory.purchases.service;
 
-import com.erp.inventory.purchases.dao.PurchasesDataDao;
-import com.erp.inventory.purchases.dao.PurchasesOrderDetailsDao;
-import com.erp.inventory.purchases.dao.SupplierDao;
-import com.erp.inventory.purchases.model.PurchasesData;
-import com.erp.inventory.purchases.model.PurchasesOrderDetails;
-import com.erp.inventory.purchases.model.Supplier;
+import com.erp.inventory.purchases.dao.*;
+import com.erp.inventory.purchases.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
@@ -34,6 +30,11 @@ public class PurchasesServiceImpl implements PurchasesService {
     @Autowired
     private SupplierDao supplierDao;
 
+    @Autowired
+    private PurchasesOrdersDao purchasesOrdersDao;
+
+    @Autowired
+    private PurchasesRefsDao purchasesRefsDao;
 
     @Override
     public boolean save(PurchasesData price) {
@@ -117,7 +118,58 @@ public class PurchasesServiceImpl implements PurchasesService {
     }
 
     @Override
+    public boolean save(PurchasesOrders orderNo) {
+        return purchasesOrdersDao.save(orderNo);  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public boolean delete(PurchasesOrders purchasesOrders) {
+        return purchasesOrdersDao.delete(purchasesOrders);  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public List<PurchasesOrders> findAllPurchasesOrders() {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public PurchasesOrders getPurchasesOrders(String comments) {
+        return purchasesOrdersDao.get(comments);  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public PurchasesOrders getPurchasesOrders(int orderNo) {
+        return purchasesOrdersDao.get(orderNo);  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
     public PurchasesOrderDetails getPurchaseOrderDetails(int orderNo) {
         return purchasesOrderDetailsDao.get(orderNo);  //To change body of implemented methods use File | Settings | File Templates.
+
+    }
+
+    @Override
+    public boolean save(PurchasesRefs reference) {
+        return purchasesRefsDao.save(reference);  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public boolean delete(PurchasesRefs purchasesRefs) {
+        return purchasesRefsDao.delete(purchasesRefs);  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public PurchasesRefs getPurchasesRefs(String reference) {
+        return purchasesRefsDao.get(reference);  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public PurchasesRefs getPurchasesRefs(int id) {
+        return purchasesRefsDao.get(id);  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public List<PurchasesRefs> findAllPurchasesRefs() {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 }
