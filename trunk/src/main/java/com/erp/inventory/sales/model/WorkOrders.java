@@ -18,7 +18,6 @@ import java.util.Date;
 public class WorkOrders implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private  int id;
     private String woRef;
     private String locCode;
@@ -31,7 +30,7 @@ public class WorkOrders implements Serializable {
     private double unitsIssued;
     private int closed;
     private int released;
-    private double  additionalCosts;
+    private double additionalCosts;
 
     public int getId() {
         return id;

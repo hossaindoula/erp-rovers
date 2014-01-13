@@ -18,7 +18,6 @@ public class WorkOrderCentres implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private int id; //pk auto
     private String name;
     private String description;

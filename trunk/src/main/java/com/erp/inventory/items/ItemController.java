@@ -75,7 +75,7 @@ public class ItemController {
         product.setProductName(productName);
         itemService.save(product);
 
-        return new ModelAndView("redirect:/createProduct");
+        return new ModelAndView("redirect:createProduct");
     }
 
 

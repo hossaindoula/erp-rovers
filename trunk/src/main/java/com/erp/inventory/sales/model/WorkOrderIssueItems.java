@@ -17,7 +17,6 @@ import java.io.Serializable;
 public class WorkOrderIssueItems implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private int id;      //pk auto
     private int stockId;
     private int issueId;

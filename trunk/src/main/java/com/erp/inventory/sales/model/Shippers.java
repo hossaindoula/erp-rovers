@@ -23,7 +23,7 @@ public class Shippers implements Serializable{
     private String shipperName;
     private String phone;
     private String contact;
-    private Address  address;
+    private Address address;
 
     public int getShipperId() {
         return shipperId;

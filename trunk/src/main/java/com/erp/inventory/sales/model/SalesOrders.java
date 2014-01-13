@@ -18,22 +18,21 @@ import java.util.Date;
 public class SalesOrders implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private int  orderNo; //pk auto
     private int debtorNo;
     private int branchCode;
     private String customerRef;
-    private  String comments;
+    private String comments;
     private Date ordDate;
-    private  int orderType;
+    private int orderType;
     private int shipVia;
-    private  String deliveryAddress;
+    private String deliveryAddress;
     private String contactPhone;
     private String contactEmail;
     private String deliverTo;
     private double freightCost;
     private String fromStkLoc;
-    private  Date deliveryDate;
+    private Date deliveryDate;
 
     public int getOrderNo() {
         return orderNo;
