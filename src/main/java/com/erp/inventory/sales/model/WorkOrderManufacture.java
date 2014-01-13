@@ -19,7 +19,7 @@ public class WorkOrderManufacture implements Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String  reference;
+    private String reference;
     private int workOrderId;
     private double quantity;
     private Date mDate;

@@ -1,6 +1,8 @@
 package com.erp.inventory.sales.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
 import java.util.Date;
@@ -15,14 +17,14 @@ import java.util.Date;
 @Entity
 public class WorkOrderIssues implements Serializable {
     @Id
-
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private int issue_no;//pk
     private int workOrderId;// pk
     private String reference;
     private Date issueDate;
     private String locCode;
-    private  int workCentreId;
+    private int workCentreId;
 
     public int getId() {
         return id;

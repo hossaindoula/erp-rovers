@@ -14,14 +14,14 @@ import java.io.Serializable;
  * To change this template use File | Settings | File Templates.
  */
 @Entity
-public class SALESMAN implements Serializable{
+public class Salesman implements Serializable{
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
-   private  int   salesmanCode;
+   private int salesmanCode;
    private String salesmanName;
    private String salesmanPhone;
-   private  String salesmanFax;
-   private  String salesmanEmail;
+   private String salesmanFax;
+   private String salesmanEmail;
 
     public int getSalesmanCode() {
         return salesmanCode;

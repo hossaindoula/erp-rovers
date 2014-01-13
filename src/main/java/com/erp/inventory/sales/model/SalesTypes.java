@@ -17,7 +17,6 @@ import java.io.Serializable;
 public class SalesTypes implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private  int id;
     private String salesType;
 
