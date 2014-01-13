@@ -29,7 +29,7 @@
     <file path="/BranchDaoImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387886179666" ignored="false" />
     <file path="/BranchService.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387886482605" ignored="false" />
     <file path="/BranchServiceImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387886518843" ignored="false" />
-    <file path="/fragment.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387737790711" ignored="false" />
+    <file path="/fragment.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389248463018" ignored="false" />
     <file path="/BranchController.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387738098725" ignored="false" />
     <file path="/AuthorizationFilter.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1387886788056" ignored="false" />
     <file path="/SecurityController.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388316163989" ignored="false" />
@@ -112,6 +112,39 @@
     <file path="/EmployeeProfileDaoImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388483153474" ignored="false" />
     <file path="/DegreeDao.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388481905358" ignored="false" />
     <file path="/DegreeDaoImpl.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388482160135" ignored="false" />
+    <file path="D:/CheckGrails/.idea/workspace.xml" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389521899674" ignored="false" />
+    <file path="D:/CheckGrails/src/com/evidence/Factorial.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388918551001" ignored="false" />
+    <file path="/Factorial.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388918538677" ignored="false" />
+    <file path="D:/CheckGrails/src/com/evidence/Math.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388921650020" ignored="false" />
+    <file path="/Math.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388921630283" ignored="false" />
+    <file path="D:/CheckGrails/src/com/TextAreaDemo.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388942455902" ignored="false" />
+    <file path="/TextAreaDemo.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388942444330" ignored="false" />
+    <file path="D:/CheckGrails/src/com/ShowFlowLayout.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388983042429" ignored="false" />
+    <file path="/ShowFlowLayout.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388983493685" ignored="false" />
+    <file path="D:/CheckGrails/src/com/ShowGridLayout.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388983286872" ignored="false" />
+    <file path="D:/CheckGrails/src/com/ShowBoxLayout.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388983450904" ignored="false" />
+    <file path="D:/CheckGrails/src/com/ShowBorderLayout.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1388983513419" ignored="false" />
+    <file path="D:/CheckGrails/src/com/ShowOverlayLayout.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389023270123" ignored="false" />
+    <file path="/ShowOverlayLayout.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389023270123" ignored="false" />
+    <file path="D:/CheckGrails/src/com/CardLayoutBehavior.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389023341746" ignored="false" />
+    <file path="D:/CheckGrails/src/com/CardLayoutManager.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389024356832" ignored="false" />
+    <file path="D:/CheckGrails/src/com/SpringLayoutDemo.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389060020336" ignored="false" />
+    <file path="/SpringLayoutDemo.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389024598708" ignored="false" />
+    <file path="D:/CheckGrails/src/com/SpringGrid.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389060214181" ignored="false" />
+    <file path="D:/CheckGrails/src/com/SpringCompactGrid.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389200304527" ignored="false" />
+    <file path="/SpringCompactGrid.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389200297908" ignored="false" />
+    <file path="D:/CheckGrails/src/com/UseGroupLayout.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389202452258" ignored="false" />
+    <file path="/CalendarEvent.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389250801704" ignored="false" />
+    <file path="/CalendarType.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389249581190" ignored="false" />
+    <file path="/CalendarEventReminder.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389251111945" ignored="false" />
+    <file path="/CalendarSetting.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389251295107" ignored="false" />
+    <file path="/CalendarShare.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389251762362" ignored="false" />
+    <file path="/SALESMAN.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389253817971" ignored="false" />
+    <file path="/SalesOrderDetails.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389253978066" ignored="false" />
+    <file path="/WorkOrderIssues.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389254077021" ignored="false" />
+    <file path="/SalesController.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389254457597" ignored="false" />
+    <file path="/CalendarEventReminderService.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389521516900" ignored="false" />
+    <file path="/CalendarTypeService.java" changelist="bdf0b4c0-ca80-49b8-a9b9-7930fdac8d8a" time="1389521848619" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +159,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -163,6 +195,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -171,7 +204,100 @@
     <favorites_list name="ERPGarment" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="SalesController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/SalesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="67" selection-start="1199" selection-end="1223" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_sales_order_entry.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/inventory/create_sales_order_entry.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="36" selection-start="847" selection-end="847" vertical-scroll-proportion="-13.730769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalendarEventReminderService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/calendar/service/CalendarEventReminderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="4" selection-start="546" selection-end="546" vertical-scroll-proportion="0.5839695">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalendarEventService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/calendar/service/CalendarEventService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="16" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalendarSettingService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/calendar/service/CalendarSettingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="16" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalendarTypeService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/calendar/service/CalendarTypeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="4" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalendarEventReminder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/calendar/model/CalendarEventReminder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="19" selection-start="623" selection-end="631" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_category.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/inventory/create_category.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="23" selection-start="0" selection-end="2488" vertical-scroll-proportion="-2.6153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_purchasesData.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/inventory/create_purchasesData.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="35" selection-start="1346" selection-end="1346" vertical-scroll-proportion="-20.26923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_PurchasesOrderDetails.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/inventory/create_PurchasesOrderDetails.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="27" selection-start="623" selection-end="623" vertical-scroll-proportion="-9.153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -181,22 +307,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LeaveEntitlement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LeaveRegister.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/time/model/LeaveWaiver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/service/HRMService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/util/model/Name.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/erp-applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/model/Department.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/model/Organization.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/model/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeProfileDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/model/EmployeeProfile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/DegreeDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/DegreeDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeProfileDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/model/Salesman.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/model/WorkOrders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/model/SalesOrderDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/model/SalesOrders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/model/SalesTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/model/Shippers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/model/WorkOrderCentres.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/model/WorkOrderIssueItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/model/WorkOrderIssues.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/model/WorkOrderManufacture.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/SalesController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/inventory/create_sales_order_entry.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/util/calendar/service/CalendarEventService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/util/calendar/service/CalendarSettingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/util/calendar/service/CalendarTypeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/erp/util/calendar/service/CalendarEventReminderService.java" />
       </list>
     </option>
   </component>
@@ -276,6 +402,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,10 +456,6 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -353,6 +476,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inventory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,11 +548,112 @@
               <option name="myItemId" value="erp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERPGarment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -454,6 +682,9 @@
       <recent name="F:\ERPGarment\src\main\java" />
       <recent name="F:\ERPGarment\src\main\java\com\erp\util" />
       <recent name="C:\Users\Administrator\IdeaProjects\ERPGarment\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.erp.util.calendar.model" />
     </key>
   </component>
   <component name="RunManager" selected="Glassfish Server.Glassfish 3.1">
@@ -750,8 +981,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1296" height="786" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -772,7 +1003,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14343598" sideWeight="0.6837607" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32649574" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21393842" sideWeight="0.6837607" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30551052" sideWeight="0.6837607" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31490016" sideWeight="0.49786553" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -848,131 +1079,117 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/model/Organization.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/model/WorkOrderIssueItems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="19" column="4" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/model/WorkOrderIssues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="12" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/model/WorkOrderManufacture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="12" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/model/WorkOrderRequirements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="22" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/items/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="58" selection-start="2545" selection-end="2571" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/inventory/create_purchasesData.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="35" selection-start="1346" selection-end="1346" vertical-scroll-proportion="-20.26923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/inventory/create_PurchasesOrderDetails.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="623" selection-end="623" vertical-scroll-proportion="-9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/inventory/create_product.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="33" selection-start="182" selection-end="182" vertical-scroll-proportion="0.21518987">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/inventory/create_category.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="23" selection-start="0" selection-end="2488" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/inventory/sales/SalesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="67" selection-start="1199" selection-end="1223" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/dao/RegionDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/inventory/create_sales_order_entry.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="8" selection-start="1587" selection-end="2040" vertical-scroll-proportion="0.0">
+        <state line="21" column="36" selection-start="847" selection-end="847" vertical-scroll-proportion="-13.730769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/model/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/calendar/service/CalendarEventService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="38" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/model/UserProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="27" selection-start="438" selection-end="445" vertical-scroll-proportion="0.435">
+        <state line="9" column="16" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeProfileDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/calendar/service/CalendarSettingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="62" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/model/EmployeeProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="350" selection-end="350" vertical-scroll-proportion="0.32166666">
+        <state line="9" column="16" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/DegreeDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/calendar/model/CalendarEventReminder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="26" selection-start="310" selection-end="594" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/model/JobAppreciation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="23" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
+        <state line="29" column="19" selection-start="623" selection-end="631" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/GeneralException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/calendar/service/CalendarTypeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="30" selection-start="503" selection-end="503" vertical-scroll-proportion="0.43441227">
+        <state line="13" column="4" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/ERPConstants.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/util/calendar/service/CalendarEventReminderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="73" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+        <state line="18" column="4" selection-start="546" selection-end="546" vertical-scroll-proportion="0.5839695">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/erp-applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="45" selection-start="4579" selection-end="4579" vertical-scroll-proportion="-3.96">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/security/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="72" selection-start="782" selection-end="850" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/DegreeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="72" selection-start="838" selection-end="906" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="670" selection-end="737" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/erp/hrm/dao/EmployeeProfileDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="597" selection-end="597" vertical-scroll-proportion="0.51">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
